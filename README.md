@@ -1,33 +1,34 @@
-# Projeyi ayağa kaldırmak için;
+# Projeyi ayaÄŸa kaldÄ±rmak iÃ§in;
 
 npm i
 
-Serveri ayağa kaldırmak için : src/assets/data konumuna gidiniz ardından şu komutu çalıştırınız;
+Serveri ayaÄŸa kaldÄ±rmak iÃ§in : src/assets/data konumuna gidiniz ardÄ±ndan ÅŸu komutu Ã§alÄ±ÅŸtÄ±rÄ±nÄ±z;
 
 json-server --watch countries.json
 
-Projeyi çalıştırmak için;
+Projeyi Ã§alÄ±ÅŸtÄ±rmak iÃ§in;
 
 npm run project-start
 
-Eğer gulp ile projeyi çalıştırmak isterseniz şu komutları çalıştırınız;
+EÄŸer gulp ile projeyi Ã§alÄ±ÅŸtÄ±rmak isterseniz ÅŸu komutlarÄ± Ã§alÄ±ÅŸtÄ±rÄ±nÄ±z;
 
 npm run build
+
 gulp
 
-## Proje içerisinde kullanılan araç ve teknolojiler
+## Proje iÃ§erisinde kullanÄ±lan araÃ§ ve teknolojiler
 
-Front End Framework => Framework olarak Angular tercih edildi. Anguların her yapı taşına değinmeye çalıştım.(Change Detection, ViewEncapculation, Sibling, Componentler arası veri paylaşımı, Lazy Load, Routing, Moduler Yapı, İnput ve Output decaratorleri, Dependency Injection, Life Cycles vb.)
+Front End Framework => Framework olarak Angular tercih edildi. AngularÄ±n her yapÄ± taÅŸÄ±na deÄŸinmeye Ã§alÄ±ÅŸtÄ±m.(Change Detection, ViewEncapculation, Sibling, Componentler arasÄ± veri paylaÅŸÄ±mÄ±, Lazy Load, Routing, Moduler YapÄ±, Ä°nput ve Output decaratorleri, Dependency Injection, Life Cycles vb.)
 
-CSS => CSS tarafında SCSS tercih edildi. SCSS'in getirdiği yenilikler kullanılmaya çalışıldı(Variables,mixins,each vb). Class isimlendirmeleri BEM metadolojisine göre yapıldı. CSS framework olarak Bootstrap kullanıldı. Animasyon ve media queryler göstermek amacıyla bir kaç yerde kullanıldı.
+CSS => CSS tarafÄ±nda SCSS tercih edildi. SCSS'in getirdiÄŸi yenilikler kullanÄ±lmaya Ã§alÄ±ÅŸÄ±ldÄ±(Variables,mixins,each vb). Class isimlendirmeleri BEM metadolojisine gÃ¶re yapÄ±ldÄ±. CSS framework olarak Bootstrap kullanÄ±ldÄ±. Animasyon ve media queryler gÃ¶stermek amacÄ±yla bir kaÃ§ yerde kullanÄ±ldÄ±.
 
-Data => Data için Fake-API tercih edildi. Fake API'yi kullanabilmek için json-server kütüphanesini dahil ettim projeye.
+Data => Data iÃ§in Fake-API tercih edildi. Fake API'yi kullanabilmek iÃ§in json-server kÃ¼tÃ¼phanesini dahil ettim projeye.
 
-Task Manager ve Build Tools => Bu kısımda gulp kullanıldı. Gulp ile js,css dosyalarını sıkıştırma vb. işlemler kullanılabilir hale getirildi. Loader olarak uglify,autoprefixer vb eklenildi. BrowserSync ile gulp ile derleme işlemi eklenildi.
+Task Manager ve Build Tools => Bu kÄ±sÄ±mda gulp kullanÄ±ldÄ±. Gulp ile js,css dosyalarÄ±nÄ± sÄ±kÄ±ÅŸtÄ±rma vb. iÅŸlemler kullanÄ±labilir hale getirildi. Loader olarak uglify,autoprefixer vb eklenildi. BrowserSync ile gulp ile derleme iÅŸlemi eklenildi.
 
-HTTP => HTTP istekleri için rxJs kütüphanesi kullanıldı. rxJs'in getirdiği yapılar kullanılmaya çalışıldı(map,filter vb.)
+HTTP => HTTP istekleri iÃ§in rxJs kÃ¼tÃ¼phanesi kullanÄ±ldÄ±. rxJs'in getirdiÄŸi yapÄ±lar kullanÄ±lmaya Ã§alÄ±ÅŸÄ±ldÄ±(map,filter vb.)
 
-Kullanılan Kütüphaneler :
+KullanÄ±lan KÃ¼tÃ¼phaneler :
 
 angular-material
 ngx-leaflet
