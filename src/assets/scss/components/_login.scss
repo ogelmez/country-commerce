@@ -1,0 +1,29 @@
+.login {
+  height: 100%;
+  background: linear-gradient(-45deg, #ee7752, #cea5aa, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 30s ease infinite;
+
+  &__container{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
+
+  &__container--animation{
+    animation-fill-mode: both;
+    animation: 1s bounce ease 2;
+  }
+
+  &__container--border{
+    border-radius: 20px;
+  }
+}
+
+

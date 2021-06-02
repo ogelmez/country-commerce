@@ -1,0 +1,20 @@
+<div *ngIf="totalType==='export' else import">
+  <div class="card__widget card__widget--green card__widget--fontSize my-4" >
+    <div class="card__widget--block">
+      <h6 class="mb-3">İhracat</h6>
+      <h2>
+        <fa-icon [icon]="faPercentage"></fa-icon><span class="widget__icon--right">{{this.percentExport}}</span>
+      </h2>
+    </div>
+  </div>
+</div>
+<ng-template #import>
+    <div class="card__widget card__widget--red card__widget--fontSize my-4" >
+        <div class="card__widget--block">
+          <h6 class="mb-3">İthalat</h6>
+          <h2>
+            <fa-icon [icon]="faPercentage"></fa-icon><span class="widget__icon--right">{{this.percentImport}}</span>
+          </h2>
+        </div>
+      </div>
+</ng-template>

@@ -1,0 +1,27 @@
+.card {
+  &__widget {
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    margin: 8px 0px 25px 0px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: bold;
+    @include shadow(0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16));
+    @include transition(all 0.3s ease-in-out);
+  }
+
+  &__widget--block {
+    padding: 25px;
+  }
+
+  &__widget--fontSize i{
+    font-size: 26px;
+  }
+}
+
+.widget__icon--right {
+    float: right !important;
+  }
+
+
+

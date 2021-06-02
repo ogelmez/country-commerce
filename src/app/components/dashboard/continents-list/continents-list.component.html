@@ -1,0 +1,7 @@
+<mat-card class="my-4 card__widget--gray text-center">
+  <mat-selection-list [multiple]="false"(selectionChange)="onChange($event)">
+    <mat-list-option  *ngFor="let continent of continents" [value]="continent">
+      {{continent.regionName}}
+    </mat-list-option>
+  </mat-selection-list>
+</mat-card>

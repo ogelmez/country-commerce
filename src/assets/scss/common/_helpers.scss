@@ -1,0 +1,5 @@
+@each $key, $val in $linear-colors {
+    .card__widget--#{$key} {
+      background: $val !important;
+    }
+  }
